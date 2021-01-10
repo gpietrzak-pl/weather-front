@@ -1,28 +1,42 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 
-import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 
-import { WeatherComponent } from './weather/weather.component';
+import { FlexLayoutModule } from '@angular/flex-layout';
 
 import { MaterialModule } from './shared/material.module'
 import { FormsModule } from '@angular/forms';
 
+import { ToolbarComponent } from './toolbar/toolbar.component';
+import { MainContentComponent } from './main-content/main-content.component';
+import { SideNavComponent } from './side-nav/side-nav.component';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import { YahooService } from './services/yahoo.service';
+
+import { Weather } from './models/weather'
+import { CommonModule } from '@angular/common';
+import { HttpClientModule } from '@angular/common/http';
 
 @NgModule({
   declarations: [
     AppComponent,
-    WeatherComponent    
+    ToolbarComponent,
+    MainContentComponent,
+    SideNavComponent
   ],
   imports: [
-    BrowserModule,
-    AppRoutingModule,
+    CommonModule,
+    HttpClientModule,
     BrowserModule,
     MaterialModule,
-    FormsModule
+    FlexLayoutModule,
+    FormsModule,
+    BrowserAnimationsModule
   ],
-  providers: [],
+  providers: [
+    YahooService
+  ],
   bootstrap: [AppComponent]
 })
 export class AppModule { }

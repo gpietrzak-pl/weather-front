@@ -1,0 +1,116 @@
+{
+    "location": {
+        "city": "Rzeszow",
+        "region": " Subcarpathia",
+        "woeid": 517126,
+        "country": "Poland",
+        "lat": 50.039669,
+        "long": 22.009171,
+        "timezone_id": "Europe/Warsaw"
+    },
+    "current_observation": {
+        "wind": {
+            "chill": 23,
+            "direction": 255,
+            "speed": 8.08
+        },
+        "atmosphere": {
+            "humidity": 95,
+            "visibility": 6.65,
+            "pressure": 29.26,
+            "rising": 0
+        },
+        "astronomy": {
+            "sunrise": "7:28 am",
+            "sunset": "3:51 pm"
+        },
+        "condition": {
+            "text": "Mostly Cloudy",
+            "code": 27,
+            "temperature": 31
+        },
+        "pubDate": 1610211600
+    },
+    "forecasts": [
+        {
+            "day": "Sat",
+            "date": 1610146800,
+            "low": 29,
+            "high": 32,
+            "text": "Snow",
+            "code": 16
+        },
+        {
+            "day": "Sun",
+            "date": 1610233200,
+            "low": 25,
+            "high": 29,
+            "text": "Mostly Cloudy",
+            "code": 28
+        },
+        {
+            "day": "Mon",
+            "date": 1610319600,
+            "low": 22,
+            "high": 29,
+            "text": "Partly Cloudy",
+            "code": 30
+        },
+        {
+            "day": "Tue",
+            "date": 1610406000,
+            "low": 22,
+            "high": 31,
+            "text": "Mostly Sunny",
+            "code": 34
+        },
+        {
+            "day": "Wed",
+            "date": 1610492400,
+            "low": 24,
+            "high": 29,
+            "text": "Mostly Cloudy",
+            "code": 28
+        },
+        {
+            "day": "Thu",
+            "date": 1610578800,
+            "low": 22,
+            "high": 25,
+            "text": "Snow Showers",
+            "code": 14
+        },
+        {
+            "day": "Fri",
+            "date": 1610665200,
+            "low": 19,
+            "high": 23,
+            "text": "Cloudy",
+            "code": 26
+        },
+        {
+            "day": "Sat",
+            "date": 1610751600,
+            "low": 16,
+            "high": 22,
+            "text": "Mostly Cloudy",
+            "code": 28
+        },
+        {
+            "day": "Sun",
+            "date": 1610838000,
+            "low": 16,
+            "high": 22,
+            "text": "Partly Cloudy",
+            "code": 30
+        },
+        {
+            "day": "Mon",
+            "date": 1610924400,
+            "low": 16,
+            "high": 23,
+            "text": "Partly Cloudy",
+            "code": 30
+        }
+    ]
+}

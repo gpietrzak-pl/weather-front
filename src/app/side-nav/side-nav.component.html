@@ -1,0 +1,21 @@
+<mat-sidenav-container class="app-side-nav-container">
+    <mat-sidenav #sidenav class="app-sidenav mat-elevation-z5" [mode]="isScreenSmall ? 'over' : 'side'"
+        [opened]="!isScreenSmall">
+        <mat-toolbar color="primary">Serwisy</mat-toolbar>
+        <mat-nav-list>
+            <mat-list-item *ngFor="let service of services">
+                <a matLine href="...">{{ service }}</a>
+                </button>
+            </mat-list-item>
+        </mat-nav-list>
+
+    </mat-sidenav>
+
+    <div class="app-sidenav-content">
+        <app-toolbar (toggleSidenav)="sidenav.toggle()"></app-toolbar>
+        <div class="wrapper">
+            <app-main-content></app-main-content>
+        </div>
+    </div>
+
+</mat-sidenav-container>

@@ -1,0 +1,7 @@
+{
+    "*": {
+        "target": "localhost:80",
+        "secure": false,
+        "logLevel": "debug"
+    }
+}
