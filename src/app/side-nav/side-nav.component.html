@@ -3,9 +3,8 @@
         [opened]="!isScreenSmall">
         <mat-toolbar color="primary">Serwisy</mat-toolbar>
         <mat-nav-list>
-            <mat-list-item *ngFor="let service of services">
+            <mat-list-item > <!-- *ngFor="let service of services" -->
                 <a matLine href="...">{{ service }}</a>
-                </button>
             </mat-list-item>
         </mat-nav-list>
 
